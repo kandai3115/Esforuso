@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+.logo{
+    display: flex;
+}
+img{height: 70px;
+}
+h1{
+    font-size: small;
+    line-height: 0.01px;
+    color:blue
+}
+p1{
+    font-size: smaller;
+    color:darkslateblue
+}
+  
+
