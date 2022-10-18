@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-.logo{
+#teammark{
     display: flex;
 }
 img{height: 70px;
@@ -10,9 +10,25 @@ h1{
     line-height: 0.01px;
     color:blue
 }
-p1{
-    font-size: smaller;
-    color:darkslateblue
-}
-  
 
+#footer{
+    background-color: gray;
+    text-align: center;
+    display: flex;
+    font-weight: bold;
+    vertical-align: top
+
+}
+section{
+    display: flex;
+    line-height: 0.05pt;
+}
+
+p{
+    text-align: initial;
+}
+#tel{
+
+    text-align: initial;
+    size: 5px;
+}
