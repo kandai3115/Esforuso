@@ -1,0 +1,200 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    list-style:none;
+}
+#header_bg{
+    width:auto;
+    height:auto;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header_nav_lists{
+    display: flex;
+    margin-top: 70px;
+}
+.header_nav_lists li{
+    margin:0 40px 0 0 ;
+}
+
+.nav_link{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+
+
+    
+#images img{
+    width: 90%;
+    height: auto;
+    border: 3px solid black;
+    margin-left: 5%;
+}
+
+section img{
+    height: 70px;
+    width: 70px;
+}
+header{
+    display: flex;
+}
+.header_contents img{
+    height:auto;
+    width: 80px;
+
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    margin: 20px;
+    font-size: 14px;
+    color: black;
+    text-align: right;
+    font-weight: bold;
+}
+li{
+    margin: 5px;
+    display: inline;
+    color: black;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    color: red;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+.header_contents h1{
+    color: midnightblue;
+    font-size:  medium;
+    font-weight: bold;
+}
+.header_contents p{
+    color: midnightblue;
+    font-size: medium;
+}
+#teamnane p{
+    word-wrap: break-word;
+}
+#teaminfo{
+    display: flex;
+    margin: 1px;
+    margin-left: 5%;
+}
+.teamname{
+    background-color:rgba(255, 255, 255, 0.5) ;
+    width: fit-content;
+    height: auto; 
+    font-size: large;  
+}
+.teamtranning{
+    background-color:rgba(255, 255, 255, 0.5) ;
+    width: fit-content;
+    height: auto; 
+    font-size: large;  
+    margin-right: 5%;
+}
+
+#coachtitle{
+    background-color:rgba(255, 255, 255, 0.5) ;
+    width:inherit;
+    height: auto; 
+    font-size: large;  
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+.coachinfo_hayashi{
+    display: flex;
+}
+
+.coachinfo_tateyama{
+    display: flex;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+
+
+.coachinfo_nasu{
+    display: flex;
+}
+
+.coach_img{
+    width: 15%;
+    height: 15%;
+}
+.hayashi{
+    width: fit-content;
+    height: auto; 
+    font-size: large;  
+}
+.tateyama{
+    width: fit-content;
+    height: auto; 
+    font-size: large;  
+}
+
+
+#trsr{
+    font-size: large;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: auto;
+    height: fit-content;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+iframe{
+    width: 100%;
+    height: 800px;
+}
+#footer{
+    text-align: center;
+    display: flex;
+    font-weight: bold;
+    vertical-align: top
+
+}
+
+
+p{
+    text-align: initial;
+}
+#tel{
+
+    text-align: initial;
+    size: 5px;
+}
+.img-wrap{
+    opacity: 0.5;
+    background-size: cover;
+    background-position: center;
+    width:100%
+}
+#info{
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color:rgba(255, 255, 255, 0.5) ;
+}
+section{
+    display: flex;
+    margin-top: 2px;
+    justify-content: center;
+   
+}
+#last{
+    font-weight: bold;
+    font-size: large;
+}
+  
